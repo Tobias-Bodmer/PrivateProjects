@@ -1,0 +1,25 @@
+{
+    "rooms": 
+    [
+        {
+            "id": 1000,
+            "name": "Crossway",
+            "description": "It's a dark and foggy",
+            "items": 
+            [
+                {
+                    "id": 3000,
+                    "name": "Letter"
+                }
+            ],
+            "npc": 
+            [
+                {
+                    "id": 2000,
+                    "name": "Steve"
+                }
+            ],
+            "event": "SteveLeave"
+        }
+    ]
+}
