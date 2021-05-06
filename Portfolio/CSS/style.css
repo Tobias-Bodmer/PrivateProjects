@@ -1,6 +1,8 @@
 body {
     background-color: lightgrey;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin: 0;
     height: 100%;
     overflow: hidden
@@ -8,14 +10,15 @@ body {
 
 #container {
     position: relative;
-    height: 300px;
-    width: 600px;
+    height: 250px;
+    width: 550px;
+    padding-top: 25vh;
 }
 
 #img {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-content: center;
 }
 
 #img img {
@@ -26,36 +29,20 @@ body {
 }
 
 #frame {
-    background-color: white;
-    border: 3px solid darkgrey;
-    border-radius: 10px;
     width: 100%;
     height: 100%;
-
     text-align: center;
 }
 
-#text {
-    width: auto;
-    height: auto;
-    border-bottom: 3px solid darkgrey;
-}
-
-h1 {
+#frame h1 {
     align-items: center;
     margin-bottom: 2%;
 }
 
-h2 {
+#frame h2 {
     font-size: 100%;
     margin-top: 0;
     color: grey;
-}
-
-p {
-    text-align: start;
-    margin-left: 2%;
-    margin-right: 2%;
 }
 
 #socialMedia {
@@ -66,9 +53,37 @@ p {
     align-items: center;
 }
 
+#socialMedia a {
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
 .fab {
-    background-color: white;
+    background-color: lightgray;
     color: grey;
-    font-size: 25px;
+    font-size: 30px;
     margin-right: 15px;
+}
+
+.fas {
+    background-color: lightgray;
+    color: grey;
+    font-size: 30px;
+    margin-right: 15px;
+}
+
+@media (max-width:1281px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    #container {
+        height: 350px;
+        width: 450px;
+    }
+}
+
+@media (max-width:961px) {
+    /* tablet, landscape iPad, lo-res laptops ands desktops */
+    #container {
+        height: 450px;
+        width: 350px;
+    }
 }
