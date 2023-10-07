@@ -1,89 +1,191 @@
+/* Variables */
+:root {
+    --colorBackground: #ffff;
+    --colorSecondBackground: rgb(235, 241, 244);
+    --colorDetails: #454D66;
+    --skillBar: #309975;
+    --colorText: #ffff;
+    --colorSecondText: rgba(255, 255, 255, 0.9);
+    --colorThirdText: rgba(255, 255, 255, 0.5);
+}
+
 body {
-    background-color: lightgrey;
+    background-color: var(--colorBackground);
     display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: column;
     margin: 0;
-    height: 100%;
-    overflow: hidden
+    min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a,
+a:visited,
+a:active,
+a:hover,
+a:focus-visible,
+a:focus {
+    color: unset !important;
+    border: none !important;
+}
+
+/* Left Side */
+#left-side {
+    position: fixed;
+    height: 100vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
 }
 
 #container {
-    position: relative;
-    height: 250px;
-    width: 550px;
-    padding-top: 25vh;
-}
-
-#img {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-#img img {
-    border-radius: 50%;
-    width: 25%;
-    height: auto;
-    z-index: 1;
-}
-
-#frame {
+    background-color: var(--colorDetails);
+    color: var(--colorSecondText);
     width: 100%;
     height: 100%;
+}
+
+#container .left-side-top {
+    display: flex;
+    padding: 0 3rem;
+}
+
+#container #img {
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+    margin-right: 1.5rem;
+}
+
+#container #img>div {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+#container #img>div>img {
+    width: 112%;
+    height: auto;
+    transform: translateX(-7px);
+}
+
+#container #name {
     text-align: center;
+    height: fit-content;
+    align-self: center;
 }
 
-#frame h1 {
+#container #name h1 {
+    font-size: 28px;
     align-items: center;
-    margin-bottom: 2%;
+    margin: 0;
+    margin-bottom: 5px;
 }
 
-#frame h2 {
-    font-size: 100%;
+#container #name h2 {
+    font-size: 16px;
     margin-top: 0;
-    color: grey;
+    color: var(--colorThirdText);
+    margin-bottom: 5px;
+}
+
+#container div.description {
+    text-align: center;
+    font-size: 1.1rem;
+    line-height: 1.75rem;
+    padding: 0 2rem;
+}
+
+#skills {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1rem;
+}
+
+#skills>div {
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0 0;
+    font-size: 18px;
+}
+
+#skills #bar {
+    background-color: var(--colorBackground);
+    width: 60%;
+    height: 18px;
+    margin-left: 1rem;
+    border: 1px solid var(--colorSecondBackground);
+}
+
+#skills #skill {
+    background-color: var(--skillBar);
+    width: 60%;
+    height: 18px;
 }
 
 #socialMedia {
-    padding: 2%;
+    position: absolute;
+    width: 100%;
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    bottom: 0;
+    padding: 2rem 0;
 }
 
-#socialMedia a {
-    margin-right: 25px;
-    margin-left: 25px;
+#socialMedia>a { 
+    margin: 0 1rem;
 }
 
+.fas,
 .fab {
-    background-color: lightgray;
-    color: grey;
-    font-size: 30px;
+    background-color: transparent;
+    color: var(--colorText);
+    font-size: 35px;
     margin-right: 15px;
 }
 
-.fas {
-    background-color: lightgray;
-    color: grey;
-    font-size: 30px;
-    margin-right: 15px;
+.fas:hover,
+.fab:hover {
+    color: var(--colorThirdText);
 }
 
-@media (max-width:1281px) {
-    /* tablet, landscape iPad, lo-res laptops ands desktops */
-    #container {
-        height: 350px;
-        width: 450px;
-    }
+/* Right Side */
+#right-side {
+    margin-left: 20vw;
 }
 
-@media (max-width:961px) {
-    /* tablet, landscape iPad, lo-res laptops ands desktops */
-    #container {
-        height: 450px;
-        width: 350px;
-    }
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 5rem;
+    margin-right: 3rem;
 }
+
+#projects>.project {
+    background-color: var(--colorDetails);
+    display: flex;
+    width: 28.53%;
+    margin: 4rem 0 0 3rem;
+    padding: 1.5rem;
+    border-radius: 15px;
+    color: var(--colorSecondText);
+}
+
+#projects>.project>* {
+    width: 45%;
+}
+
+#projects>.project>* a { 
+    color: var(--colorThirdText) !important;
+}
+
+#projects>.project>div:first-child>img {
+    width: 80%;
+    height: auto;
+    border-radius: 15px;
+}
+
+/* Responsiv */
+@media (max-width:1281px) {}
+
+@media (max-width:961px) {}

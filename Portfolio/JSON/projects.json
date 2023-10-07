@@ -1,0 +1,74 @@
+[
+    {
+        "img": "./IMG/aera.png",
+        "img_alt": "Ära",
+        "name": "Ära",
+        "description": "Rough Lite Game - Thesis...",
+        "more_infos": "https://github.com/Tobias-Bodmer/Thesis",
+        "play_now": "https://tobias-bodmer.github.io/Thesis/index.html"
+    },
+    {
+        "img": "./IMG/shackles_of_hell.png",
+        "img_alt": "Shackles of Hell",
+        "name": "Shackles of Hell",
+        "description": "Unity Projekt...",
+        "more_infos": "https://github.com/Tobias-Bodmer/Shackles-of-Hell",
+        "play_now": ""
+    },
+    {
+        "img": "./IMG/modus_operandi.png",
+        "img_alt": "Modus Operandi",
+        "name": "Modus Operandi",
+        "description": "Modus Operandi ist ein Point-and-Click Adventure. Bist du der geborene Detektiv und erkennst die Muster in deinen Fällen?\n Dieses Projekt wurde in FUDGE dem Furtwangen University Didactic Game Editor entwickelt.\n Von Konzeption bis hin zur Umsetzung des ersten Kapitels ist alles in einem Team von 7 Personen entstanden. Meine Hauptaufgabe hierbei war das programmiertechnische Umsetzen des ersten Kapitels.",
+        "more_infos": "./PDF/Game Design Document.pdf",
+        "play_now": "https://hs-furtwangen.github.io/ModusOperandi/Code/EditorV0.1/Editor.html"
+    },
+    {
+        "img": "./IMG/asset.png",
+        "img_alt": "3D Assets",
+        "name": "3D Assets",
+        "description": "3D Assets erstellen...",
+        "more_infos": "./PDF/Asset Paper.pdf",
+        "play_now": ""
+    },
+    {
+        "img": "./IMG/barbarian_preview.gif",
+        "img_alt": "3D Animation - Walk Cycle",
+        "name": "3D Animation",
+        "description": "Auch 3D Animationen habe ich bereits gemacht. 3D Model Rigging und animieren wie hier ein Walk Cycle...",
+        "more_infos": "",
+        "play_now": ""
+    },   
+    {
+        "img": "./IMG/ar_game.png",
+        "img_alt": "AR Brettspiel - WebGL",
+        "name": "AR Brettspiel - WebGL",
+        "description": "WebGL...",
+        "more_infos": "https://github.com/Tobias-Bodmer/Echtzeit-Computergrafik",
+        "play_now": "https://tobias-bodmer.github.io/Echtzeit-Computergrafik/Abschluss/"
+    },
+    {
+        "img": "https://raw.githubusercontent.com/Tobias-Bodmer/Softwaredesign/master/AbschlussAufgabe/img/graveyard.png",
+        "img_alt": "The Graveyard",
+        "name": "The Graveyard",
+        "description": "Ein klassisches Textadventure auch bekannt als Interactive Fiction ist The Graveyard. Enstanden ist es im Modul Softwaredesign.\n Umgesetzt wurde es mit reinem HTML, CSS und JavaScript.",
+        "more_infos": "https://github.com/Tobias-Bodmer/Softwaredesign/tree/master/AbschlussAufgabe",
+        "play_now": "https://tobias-bodmer.github.io/Softwaredesign/AbschlussAufgabe/Index.html"
+    },
+    {
+        "img": "./IMG/genesis_inception.png",
+        "img_alt": "Genesis Forever Trapped",
+        "name": "Genesis Forever Trapped",
+        "description": "Visual Novle....",
+        "more_infos": "https://github.com/Tobias-Bodmer/VisualNovel/blob/main/Konzept.pdf",
+        "play_now": "https://tobias-bodmer.github.io/VisualNovel/Endabgabe/"
+    },
+    {
+        "img": "./IMG/audio_puzzle_game.png",
+        "img_alt": "Audio Puzzle Game",
+        "name": "Audio Puzzle Game",
+        "description": "Für das Modul User Experience konzipiertes Spiel in dem es darum geht einzelne Frequenzen zu einem Lied zusammen zu Puzzlen.\n Dies wurde in einem Studienfachübergreifendem Team von fünf Kommolitonen erarbeitet. Ein erster Clickdummy wurde von einem Team mitglied und mir in Adobe XD erstellt.",
+        "more_infos": "",
+        "play_now": ""
+    }
+]
