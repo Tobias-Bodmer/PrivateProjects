@@ -1,18 +1,30 @@
 [
     {
-        "name": "Programming",
-        "levle": "75"
+        "name": "Unity",
+        "levle": "65"
     },
     {
-        "name": "Gamedesign",
+        "name": "C#",
+        "levle": "70"
+    },
+    {
+        "name": "JavaScript",
+        "levle": "70"
+    },
+    {
+        "name": "PHP",
         "levle": "50"
     },
     {
         "name": "3D-Modeling",
+        "levle": "45"
+    },
+    {
+        "name": "Texturing",
         "levle": "40"
     },
     {
         "name": "3D-Animation",
-        "levle": "30"
+        "levle": "40"
     }
 ]

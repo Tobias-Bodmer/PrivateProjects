@@ -7,12 +7,6 @@ $(document).ready(() => {
             $.each(data, function (key, val) {
                 projects += '<div class="project">';
 
-                if (data.length % 2 != 0) {
-                    if (data.length - 1 == key) {
-                        projects = projects.slice(0, -1) + ' style="flex: 1">';
-                    }
-                }
-
                 projects += '<div>';
                 projects += '<img src="' + val.img + '" alt"' + val.img_alt + '">';
                 projects += '</div>';
@@ -52,10 +46,10 @@ $(document).ready(() => {
     if ($('#skills').length != 0) {
 
         let skills = '';
-        $.getJSON('./JSON/skills.json', (data) => { 
+        $.getJSON('./JSON/skills.json', (data) => {
             skills = '<h2>Skill Level</h2>';
 
-            $.each(data, function (key, val) { 
+            $.each(data, function (key, val) {
                 skills += '<div>' + val.name;
 
                 skills += '<div id="bar"><div id="skill" style="width: ' + val.levle + '%">';
@@ -66,5 +60,17 @@ $(document).ready(() => {
 
             $('#skills').append(skills);
         })
+    }
+
+    if ($('#contact').length != 0) {
+        $('#contact').on('click', () => {
+            $('#left-side').show();
+        });
+    }
+
+    if ($('#close').length != 0) {
+        $('#close').on('click', () => {
+            $('#left-side').hide();
+        });
     }
 })
