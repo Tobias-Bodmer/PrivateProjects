@@ -3,7 +3,7 @@
         "img": "./IMG/aera.png",
         "img_alt": "Ära",
         "name": "Ära",
-        "description": "Rough Lite Game - Thesis...",
+        "description": "Ära ist ein \"Koop Rough Lite Game\", welches in meiner Thesis entstanden ist und in einem Team aus zwei Personen entwickelt wurde.\n Dieses Projekt wurde in FUDGE dem Furtwangen University Didactic Game Editor entwickelt.\n Überwiegend war ich in diesem Projekt für das Networking, den Aufbau des Servers und dem UI zuständig. Darüber hinaus war ich aber auch an vielen anderen Aufgaben mitbeteiligt wie den Sprits, dem Gamedesign, der Implementierung von Spielmechaniken usw.",
         "more_infos": "https://github.com/Tobias-Bodmer/Thesis",
         "play_now": "https://tobias-bodmer.github.io/Thesis/index.html"
     },
@@ -11,7 +11,7 @@
         "img": "./IMG/shackles_of_hell.png",
         "img_alt": "Shackles of Hell",
         "name": "Shackles of Hell",
-        "description": "Unity Projekt...",
+        "description": "Shackles of Hell war ein Projekt für das Modul Gamedesign. Hier ging es um das Gestalten eines innovativen Videospiels und das umsetzten eines Prototypen. Verwendet haben wir für den Prototypen Unity.\n Shackles of Hell ist ein \"Multiplayer Puzzle Game\", das Teamwork voraussetzt. Innovativ sind hierbei die Verbindungen (Ketten), die die Spieler zwischen sich errichten können und mit deren Hilfe Rätsel gelöst werden müssen.",
         "more_infos": "https://github.com/Tobias-Bodmer/Shackles-of-Hell",
         "play_now": ""
     },
@@ -25,9 +25,9 @@
     },
     {
         "img": "./IMG/asset.png",
-        "img_alt": "3D Assets",
-        "name": "3D Assets",
-        "description": "3D Assets erstellen...",
+        "img_alt": "3D-Asset",
+        "name": "Assets",
+        "description": "Auch das Erstellen von Assets habe ich schon für das ein oder andere Projekt gemacht, ob 3D, 2D oder auch Pixel-Art.",
         "more_infos": "./PDF/Asset Paper.pdf",
         "play_now": ""
     },
@@ -35,7 +35,7 @@
         "img": "./IMG/barbarian_preview.gif",
         "img_alt": "3D Animation - Walk Cycle",
         "name": "3D Animation",
-        "description": "Auch 3D Animationen habe ich bereits gemacht. 3D Model Rigging und animieren wie hier ein Walk Cycle...",
+        "description": "Model Rigging, Model Animation wie Walk Cycles oder ähnlichem gehörten auch schon zu Projekten dazu.",
         "more_infos": "",
         "play_now": ""
     },   
@@ -43,7 +43,7 @@
         "img": "./IMG/ar_game.png",
         "img_alt": "AR Brettspiel - WebGL",
         "name": "AR Brettspiel - WebGL",
-        "description": "WebGL...",
+        "description": "Für das Modul Echtzeit-Computergrafik habe ich als Endabgabe ein AR Brettspiel im D&D Stil entwickelt. Verwendet wurde hierfür WebGL und verschiedenste Libraries.",
         "more_infos": "https://github.com/Tobias-Bodmer/Echtzeit-Computergrafik",
         "play_now": "https://tobias-bodmer.github.io/Echtzeit-Computergrafik/Abschluss/"
     },
@@ -59,7 +59,7 @@
         "img": "./IMG/genesis_inception.png",
         "img_alt": "Genesis Forever Trapped",
         "name": "Genesis Forever Trapped",
-        "description": "Visual Novle....",
+        "description": "Genesis Forever Trapped ist eine Visual Novle, die mit FUDGE Story entwickelt wurde. Es handelt von einem VR-Spiel in der Zukunft in dem die Spieler durch Hacker gefangen gehalten werden.",
         "more_infos": "https://github.com/Tobias-Bodmer/VisualNovel/blob/main/Konzept.pdf",
         "play_now": "https://tobias-bodmer.github.io/VisualNovel/Endabgabe/"
     },

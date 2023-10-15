@@ -9,11 +9,23 @@
     },
     {
         "name": "JavaScript",
-        "levle": "70"
+        "levle": "80"
+    },
+    {
+        "name": "HTML/CSS",
+        "levle": "80"
     },
     {
         "name": "PHP",
         "levle": "50"
+    },
+    {
+        "name": "Python",
+        "levle": "40"
+    },
+    {
+        "name": "Database",
+        "levle": "40"
     },
     {
         "name": "3D-Modeling",

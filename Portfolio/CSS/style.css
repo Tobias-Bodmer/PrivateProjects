@@ -291,6 +291,16 @@ a:focus {
 
 @media (max-width:1600px) {
 
+    #left-side {
+        position: relative;
+        height: fit-content;
+    }
+
+    #container,
+    #left-side {
+        min-height: 100vh;
+    }
+
     #right-side,
     #left-side {
         width: 100%;
@@ -299,6 +309,10 @@ a:focus {
 
     #left-side {
         display: none;
+    }
+
+    #socialMedia {
+        position: relative;
     }
 
     #projects>.project {
@@ -311,5 +325,11 @@ a:focus {
 
     .contact-container {
         display: flex;
+    }
+}
+
+@media (max-height:970px) {
+    #container div.description{
+        font-size: 15px;
     }
 }

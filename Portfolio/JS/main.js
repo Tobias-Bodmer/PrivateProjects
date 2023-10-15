@@ -65,12 +65,21 @@ $(document).ready(() => {
     if ($('#contact').length != 0) {
         $('#contact').on('click', () => {
             $('#left-side').show();
+            $('#right-side').hide();
         });
     }
 
     if ($('#close').length != 0) {
         $('#close').on('click', () => {
             $('#left-side').hide();
+            $('#right-side').show();
         });
     }
+
+    $(window).on('resize', () => {
+        if (window.innerWidth > 1600) {
+            $('#right-side').show();
+            $('#left-side').show();
+        }
+    })
 })
