@@ -1,5 +1,13 @@
 [
     {
+        "img": "./IMG/digging_treasure.gif",
+        "img_alt": "Digging Treasure",
+        "name": "Digging Treasure",
+        "description": "Coming Soon",
+        "more_infos": "",
+        "play_now": ""
+    },
+    {
         "img": "./IMG/aera.png",
         "img_alt": "Ära",
         "name": "Ära",
