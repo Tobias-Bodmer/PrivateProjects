@@ -3,9 +3,9 @@
         "img": "./IMG/digging_treasure.gif",
         "img_alt": "Digging Treasure",
         "name": "Digging Treasure",
-        "description": "Coming Soon",
+        "description": "Coming Soon - Play Demo Out Now",
         "more_infos": "",
-        "play_now": ""
+        "play_now": "https://tobias-bodmer.github.io/DiggingTreasures/Unity%20Project/Build/index.html"
     },
     {
         "img": "./IMG/aera.png",
