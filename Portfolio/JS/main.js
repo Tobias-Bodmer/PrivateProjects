@@ -66,17 +66,13 @@ $(document).ready(() => {
         })
         if ($('#home').isInViewport()) {
             $('a[href$="#home"]').attr('style', 'color: var(--colorSecondText) !important');
-        }
-        if ($('#about').isInViewport()) {
+        }else if ($('#about').isInViewport()) {
             $('a[href$="#about"]').attr('style', 'color: var(--colorSecondText) !important');
-        }
-        if ($('#skills').isInViewport()) {
+        }else if ($('#skills').isInViewport()) {
             $('a[href$="#skills"]').attr('style', 'color: var(--colorSecondText) !important');
-        }
-        if ($('#projects').isInViewport()) {
+        }else if ($('#projects').isInViewport()) {
             $('a[href$="#projects"]').attr('style', 'color: var(--colorSecondText) !important');
-        }
-        if ($('#contact').isInViewport()) {
+        }else if ($('#contact').isInViewport()) {
             $('a[href$="#contact"]').attr('style', 'color: var(--colorSecondText) !important');
         }
     });
