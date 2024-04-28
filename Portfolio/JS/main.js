@@ -39,47 +39,15 @@ $(document).ready(() => {
                 projects += '</div>';
             });
 
-            $('#projects').append(projects);
+            $('#projects-container').append(projects);
+    
+            if ($('.project').length != 0) {        
+                $('.project').hover((event) => {
+                    $(event.currentTarget.children[0].children[0]).toggleClass('img-dark');
+                    $(event.currentTarget.children[1]).toggleClass('show');
+                    console.log($(event.currentTarget.children[1]))
+                });
+            }
         });
     }
-
-    if ($('#skills').length != 0) {
-
-        let skills = '';
-        $.getJSON('./JSON/skills.json', (data) => {
-            skills = '<h2>Skill Level</h2>';
-
-            $.each(data, function (key, val) {
-                skills += '<div>' + val.name;
-
-                skills += '<div id="bar"><div id="skill" style="width: ' + val.levle + '%">';
-                skills += '</div></div>';
-
-                skills += '</div>';
-            })
-
-            $('#skills').append(skills);
-        })
-    }
-
-    if ($('#contact').length != 0) {
-        $('#contact').on('click', () => {
-            $('#left-side').show();
-            $('#right-side').hide();
-        });
-    }
-
-    if ($('#close').length != 0) {
-        $('#close').on('click', () => {
-            $('#left-side').hide();
-            $('#right-side').show();
-        });
-    }
-
-    $(window).on('resize', () => {
-        if (window.innerWidth > 1600) {
-            $('#right-side').show();
-            $('#left-side').show();
-        }
-    })
 })
