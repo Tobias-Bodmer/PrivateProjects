@@ -40,14 +40,68 @@ $(document).ready(() => {
             });
 
             $('#projects-container').append(projects);
-    
-            if ($('.project').length != 0) {        
+
+            if ($('.project').length != 0) {
                 $('.project').hover((event) => {
                     $(event.currentTarget.children[0].children[0]).toggleClass('img-dark');
                     $(event.currentTarget.children[1]).toggleClass('show');
-                    console.log($(event.currentTarget.children[1]))
                 });
             }
         });
+    }
+
+    $.fn.isInViewport = function () {
+        var elementTop = $(this).offset().top;
+        var elementBottom = elementTop + $(this).outerHeight();
+
+        var viewportTop = $(window).scrollTop();
+        var viewportBottom = viewportTop + $(window).height();
+
+        return elementBottom > viewportTop && elementTop < viewportBottom;
+    };
+
+    $(document).on('scrollend', () => {
+        $('#navigation').children().toArray().forEach((child) => {
+            $(child).css('color', '');
+        })
+        if ($('#home').isInViewport()) {
+            $('a[href$="#home"]').attr('style', 'color: var(--colorSecondText) !important');
+        }
+        if ($('#about').isInViewport()) {
+            $('a[href$="#about"]').attr('style', 'color: var(--colorSecondText) !important');
+        }
+        if ($('#skills').isInViewport()) {
+            $('a[href$="#skills"]').attr('style', 'color: var(--colorSecondText) !important');
+        }
+        if ($('#projects').isInViewport()) {
+            $('a[href$="#projects"]').attr('style', 'color: var(--colorSecondText) !important');
+        }
+        if ($('#contact').isInViewport()) {
+            $('a[href$="#contact"]').attr('style', 'color: var(--colorSecondText) !important');
+        }
+    });
+
+    var url = window.location.href;
+    var lastPart = url.substr(url.lastIndexOf('#') + 1);
+
+    switch (lastPart) {
+        case 'home':
+            $('a[href$="#home"]').attr('style', 'color: var(--colorSecondText) !important');
+            break;
+        case 'about':
+            $('a[href$="#about"]').attr('style', 'color: var(--colorSecondText) !important');
+            break;
+        case 'skills':
+            $('a[href$="#skills"]').attr('style', 'color: var(--colorSecondText) !important');
+            break;
+        case 'projects':
+            $('a[href$="#projects"]').attr('style', 'color: var(--colorSecondText) !important');
+            break;
+        case 'contact':
+            $('a[href$="#contact"]').attr('style', 'color: var(--colorSecondText) !important');
+            break;
+        default:
+            $('a[href$="#home"]').attr('style', 'color: var(--colorSecondText) !important');
+            break;
     }
 })
