@@ -1,5 +1,21 @@
 [
     {
+        "img": "./IMG/mx_schmaelzle.png",
+        "img_alt": "MX-Schmälzle",
+        "name": "WordPress und Figma Projekt",
+        "description": "In meiner Freizeit entdeckte ich die Webseite MX-Schmälzle und beschloss, sie als Übungsprojekt neu zu gestalten. \n Dafür entwickelte ich ein Konzept in Figma und setzte es anschließend mit der Software Local in eine WordPress-Seite um.",
+        "more_infos": "",
+        "play_now": ""
+    },
+    {
+        "img": "./IMG/probeaufgabe_figma.png",
+        "img_alt": "Figma Design Probeaufgabe",
+        "name": "Figma Design Probeaufgabe",
+        "description": "Dies war eine Probeaufgabe für die Mission Mittelstand GmbH in der das Design für mehr Absatz angepasst werden sollte. \n Für die Visualisierung habe ich Figma verwendet und eine Desktop- und eine Mobile-Version angefertigt.",
+        "more_infos": "./PDF/Probeaufgabe_Figma.pdf",
+        "play_now": ""
+    },
+    {
         "img": "./IMG/digging_treasure.gif",
         "img_alt": "Digging Treasure",
         "name": "Digging Treasure",
